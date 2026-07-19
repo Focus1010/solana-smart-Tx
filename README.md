@@ -9,7 +9,7 @@ Smart Solana transactions for builders who need payments to actually land.
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-blue.svg)](https://www.typescriptlang.org/)
 ![solana](https://img.shields.io/badge/Solana-mainnet--beta-9945FF)
 [![Node >= 20](https://img.shields.io/badge/node-%3E%3D20-brightgreen.svg)](https://nodejs.org/)
-
+[![Build](https://img.shields.io/github/actions/workflow/status/Focus1010/txpilot/ci.yml?branch=main&label=build)](https://github.com/Focus1010/txpilot/actions)
 </div>
 
 ## The problem
@@ -252,7 +252,7 @@ The default rule-based mode runs entirely on free tiers. Nothing here requires a
 
 ## Contributing
 
-Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) to get started. This package is built on top of the production transaction stack at github.com/Focus1010/solana-smart-tx-stack.
+Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) to get started. This package is built on top of the production transaction stack at [github.com/Focus1010/solana-smart-tx-stack](github.com/Focus1010/solana-smart-tx-stack).
 
 Nigerian builders are the primary target audience for this package. Contributions that improve the experience for low-bandwidth and mobile-first environments, such as smaller payloads, better offline handling, and clearer error messages, are especially welcome.
 
