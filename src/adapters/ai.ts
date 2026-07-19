@@ -6,7 +6,7 @@
  * implemented in this version. Selecting `mode: 'ai'` and calling a method here
  * throws a descriptive {@link NotImplementedError}.
  *
- * Contributions welcome: https://github.com/[your-handle]/solana-smart-tx
+ * Contributions welcome: https://github.com/Focus1010/solana-smart-tx
  */
 
 import type {
@@ -22,7 +22,7 @@ import type {
 /** Message shown whenever an unimplemented AI method is invoked. */
 const NOT_IMPLEMENTED_MESSAGE =
   "AI adapter is not yet implemented in this version. Set mode: 'rule-based' in " +
-  'SmartTxConfig or contribute the AI adapter at github.com/[your-handle]/solana-smart-tx';
+  'SmartTxConfig or contribute the AI adapter at github.com/Focus1010/solana-smart-tx';
 
 /**
  * Error thrown by every {@link AIAdapter} method until the AI adapter ships.

@@ -9,7 +9,7 @@ Smart Solana transactions for builders who need payments to actually land.
 [![TypeScript](https://img.shields.io/badge/TypeScript-strict-blue.svg)](https://www.typescriptlang.org/)
 [![Solana mainnet](https://img.shields.io/badge/Solana-mainnet--beta-purple.svg)](https://solana.com/)
 [![Node >= 20](https://img.shields.io/badge/node-%3E%3D20-brightgreen.svg)](https://nodejs.org/)
-[![Build](https://img.shields.io/github/actions/workflow/status/your-handle/solana-smart-tx/ci.yml?branch=main)](https://github.com/your-handle/solana-smart-tx/actions)
+[![Build](https://img.shields.io/github/actions/workflow/status/Focus1010/solana-smart-tx/ci.yml?branch=main)](https://github.com/Focus1010/solana-smart-tx/actions)
 
 </div>
 
@@ -245,15 +245,15 @@ The default rule-based mode runs entirely on free tiers. Nothing here requires a
 ## Roadmap
 
 - [x] Core `send()` with rule-based adapter (current)
-- [ ] AI adapter (Groq and Anthropic)
-- [ ] Remittance bot reference implementation (full open-source bot)
-- [ ] P2P payment request bot reference implementation
-- [ ] Yellowstone gRPC slot streaming integration
-- [ ] NPM publish and versioning
+- [ ] AI adapter (Groq and Anthropic) - August 2026
+- [ ] Remittance bot reference implementation (full open-source bot) - August 2026
+- [ ] P2P payment request bot reference implementation - September 2026
+- [ ] Yellowstone gRPC slot streaming integration - September 2026
+- [ ] NPM publish and versioning - September 2026
 
 ## Contributing
 
-Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) to get started. This package is built on top of the production transaction stack at [github.com/your-handle/solana-tx-stack](https://github.com/your-handle/solana-tx-stack).
+Contributions are welcome. See [CONTRIBUTING.md](CONTRIBUTING.md) to get started. This package is built on top of the production transaction stack at github.com/Focus1010/solana-smart-tx-stack.
 
 Nigerian builders are the primary target audience for this package. Contributions that improve the experience for low-bandwidth and mobile-first environments, such as smaller payloads, better offline handling, and clearer error messages, are especially welcome.
 
