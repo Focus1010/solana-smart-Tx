@@ -33,11 +33,14 @@
   "dependencies": {
     "jito-ts": "^3.0.0",
     "@triton-one/yellowstone-grpc": "^1.0.0",
-    "bs58": "^5.0.0"
+    "bs58": "^5.0.0",
+    "dotenv": "^16.4.0"
   },
   "devDependencies": {
     "typescript": "^5.4.0",
     "ts-node": "^10.9.2",
-    "@types/node": "^20.11.0"
+    "@types/node": "^20.11.0",
+    "telegraf": "^4.16.0",
+    "@solana/spl-token": "^0.4.0"
   }
 }
