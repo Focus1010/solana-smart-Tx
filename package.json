@@ -1,0 +1,43 @@
+{
+  "name": "solana-smart-tx",
+  "version": "0.1.0",
+  "description": "Smart Solana transaction stack for Nigerian builders. Reliable submission, lifecycle tracking, failure classification, and intelligent retry logic out of the box.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "keywords": [
+    "solana",
+    "web3",
+    "transactions",
+    "jito",
+    "nigeria",
+    "payments",
+    "stablecoin",
+    "remittance"
+  ],
+  "files": [
+    "dist",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "example:basic": "ts-node examples/basic-send.ts",
+    "example:telegram": "ts-node examples/telegram-bot.ts",
+    "lint": "eslint src/**/*.ts"
+  },
+  "peerDependencies": {
+    "@solana/web3.js": "^1.87.0"
+  },
+  "dependencies": {
+    "jito-ts": "^3.0.0",
+    "@triton-one/yellowstone-grpc": "^1.0.0",
+    "bs58": "^5.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "ts-node": "^10.9.2",
+    "@types/node": "^20.11.0"
+  }
+}
